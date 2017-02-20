@@ -12,11 +12,12 @@
 int main(void)
 {
     int age;
-    char[] name;
+    char name[20];
 
     printf("Welcome to nameage\n\n");
     printf("Please enter name: ");
-    scanf("%s", &name);
+    scanf("%s", name);
+
     printf("Please enter your age: ");
     scanf("%d", &age);
 
@@ -34,7 +35,7 @@ int main(void)
         printf("You should have retired already!");
     }
 
-    printf("\nThank you for using nameage. Bye!");
+    printf("\n\nThank you for using nameage. Bye!\n");
 
     return 0;
 }
